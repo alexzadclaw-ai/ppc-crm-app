@@ -1,0 +1,16 @@
+# Private/local data must not be committed
+data/
+crm/
+*.csv
+!examples/sample-crm.csv
+*.tsv
+*.sqlite
+*.db
+
+# Python/cache
+__pycache__/
+*.pyc
+.venv/
+
+# OS/editor
+.DS_Store
